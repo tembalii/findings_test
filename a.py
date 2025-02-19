@@ -70,5 +70,3 @@ async def snippet_list4(request):
       await cursor.fetchall()
 
   return {"result": "ok"}
-
-# hello
