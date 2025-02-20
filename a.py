@@ -33,7 +33,6 @@ async def snippet_list2(request):
           do_smth(cursor)
 
   return {"result": "ok"}
-
 @api_view(["GET", "POST"])
 async def snippet_list3(request):
   name = request.GET["query"]
